@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2rem auto;
+    width: 90%;
+    background-color: #dcdcef;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 3rem;
+    padding: 0.2rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/font.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+input[type=text] {
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+#create {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+#gender {
+    padding: 0.3rem 1rem;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+#playlist {
+    margin: 2rem auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.playlist {
+    border: 0.3rem solid rgba(0, 0, 0, 0.45);
+    border-radius: 0.8rem;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(49, 190, 203, 0.58);
+    margin-bottom: 1rem;
+}
+
+.playlist > input {
+    width: 50%;
+    text-align: center;
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.playlist > button {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 2rem;
+}
+
+a {
+    font-size: 2rem;
+    text-decoration-line: none;
+    font-family: 'Pushster', cursive;
+    color: black;
+    margin: 0.2rem;
+}
+
+@media screen and (max-width: 500px){
+    .playlist {
+        width: 100%;
+    }
+}
+
+
+
